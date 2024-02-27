@@ -1,5 +1,10 @@
+import Menu from "./components/Menu";
+import Toolbox from "./components/Toolbox";
 export default function Home() {
   return (
-    <h1>Hello</h1>
+    <>
+      <Menu />
+      <Toolbox />
+    </>
   );
 }
